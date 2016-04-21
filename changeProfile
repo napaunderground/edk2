@@ -1,0 +1,16 @@
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+PATH=$PATH:$HOME/.local/bin:$HOME/bin
+
+export PATH=/home/student/nseiger/CS385/EFI/Sonoma_edk2/BaseTools/BinWrappers/PosixLike:/home/student/nseiger/CS385/EFI/Sonoma_edk2/nasm-2.12.01:$PATH
+export WORKSPACE=/home/student/nseiger/CS385/EFI/Sonoma_edk2/$WORKSPACE
+export EDK_TOOLS_PATH=/home/student/nseiger/CS385/EFI/Sonoma_edk2/BaseTools/$EDK_TOOLS_PATH
+
+
